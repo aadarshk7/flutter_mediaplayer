@@ -1,7 +1,7 @@
 <h2>Flutter Media Player</h2>
 <p>This project demonstrates a robust media player app built with Flutter, featuring state management using either <strong>BLoC</strong> for seamless handling of media playback states. The app supports both video and audio files, with the ability to play, pause, and stop media through dedicated controllers. Additionally, it leverages the <strong>Path Provider</strong> for data storage, <strong>Geocoder</strong> for location-based functionalities, and offers advanced control for managing multiple media files and alert functionality based on user location.</p>
 Features
-<ul> <li><strong>State Management:</strong> Implements BLoC or Riverpod for state handling.</li> <li><strong>Media Playback:</strong> <ul> <li>Video and audio playback via media libraries.</li> <li>Full controls to play, pause, and stop media files.</li> <li>Supports managing and switching between multiple media files.</li> </ul> </li> <li><strong>File Storage:</strong> Uses Path Provider for storing and retrieving files.</li> <li><strong>Location Handling:</strong> Geocoder integration to support location-based media alerts.</li> <li><strong>UI Elements:</strong> Full-screen video display with title and progress indicator.</li> </ul>
+<ul> <li><strong>State Management:</strong> Implements BLoC for state handling.</li> <li><strong>Media Playback:</strong> <ul> <li>Video and audio playback via media libraries.</li> <li>Full controls to play, pause, and stop media files.</li> <li>Supports managing and switching between multiple media files.</li> </ul> </li> <li><strong>File Storage:</strong> Uses Path Provider for storing and retrieving files.</li> <li><strong>Location Handling:</strong> Geocoder integration to support location-based media alerts.</li> <li><strong>UI Elements:</strong> Full-screen video display with title and progress indicator.</li> </ul>
 Quick Start
 Prerequisites
 Flutter SDK
@@ -24,7 +24,7 @@ Location Alert Functionality
 UI Overview
 <p>The app features a minimalist UI:</p> <ul> <li><strong>Full-Screen Video Display:</strong> Provides an immersive experience.</li> <li><strong>Video Title:</strong> Displayed at the top.</li> <li><strong>Progress Indicator:</strong> Located at the bottom to track playback status.</li> </ul>
 Dependencies
-<ul> <li><strong>BLoC/Riverpod:</strong> State management solution.</li> <li><strong>video_player:</strong> For handling video playback.</li> <li><strong>audio_player:</strong> For handling audio playback.</li> <li><strong>path_provider:</strong> Manages storage data.</li> <li><strong>geocoder:</strong> Handles location services.</li> </ul>
+<ul> <li><strong>BLoC:</strong> State management solution.</li> <li><strong>video_player:</strong> For handling video playback.</li> <li><strong>audio_player:</strong> For handling audio playback.</li> <li><strong>path_provider:</strong> Manages storage data.</li> <li><strong>geocoder:</strong> Handles location services.</li> </ul>
 Future Improvements
 <ul> <li>Add more complex alert functionality.</li> <li>Expand media library compatibility.</li> <li>Improve UI with custom themes and controls.</li> </ul>
 License
