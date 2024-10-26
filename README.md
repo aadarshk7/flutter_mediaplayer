@@ -6,7 +6,7 @@ Quick Start
 Prerequisites
 Flutter SDK
 Dart SDK
-BLoC or Riverpod package for state management
+BLoC package for state management
 Media player packages (video_player, audio_player)
 Path Provider package
 Geocoder package
